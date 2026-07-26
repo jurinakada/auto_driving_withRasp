@@ -23,6 +23,25 @@ checking from pip list command
 - Runtime settings
  - A100
 
+## Learning results
+### Accuracy
+
+#### Training
+
+| Training | Accuracy | Loss | Val Accuracy | Val Loss |
+|---|---|---|---|---|
+| Epoch 10 (10/50) | 0.9598 | 0.1087 | 0.9399 | 0.1563 |
+
+#### Test Results
+
+| Test Results | Accuracy | Loss |
+|---|---|---|
+| Test_ds | 0.950 | 0.1302 |
+
+```python
+model_basic.evaluate(test_ds)
+```
+
 ## Confison Matrix
 <img width="756" height="582" alt="0 95_confusion_matrix" src="https://github.com/user-attachments/assets/b7b77342-bfb9-42dc-835b-f2d320f7e6b5" />
 
